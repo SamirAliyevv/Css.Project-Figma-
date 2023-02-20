@@ -1,63 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-    
+
 }
-#background{
+
+#background {
     background-color: #093545;
     width: 100%;
     height: 44.6rem;
     background-size: cover;
 }
-#Signin{
-    color: #ffffff; 
-     width: 10%;
-     margin: auto;  
-      padding-top:14rem;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 2.85rem;
-      font-weight:100px;
-      
-    
+
+#Signin {
+    color: #ffffff;
+    width: 10%;
+    margin: auto;
+    padding-top: 14rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.85rem;
+    font-weight: 100px;
+
+
 
 
 }
-form p{
+
+form p {
     color: #ffffff;
     width: 19%;
     margin: auto;
     margin-top: 40px;
 }
-.login{
 
-    background-color:  #224957;
+.login {
+
+    background-color: #224957;
     color: #ffffff;
     width: 16%;
-    height: 38px;
+    padding: 10px;
     margin-left: 41.6%;
     border-radius: 10px;
-     border-style: none;
-     margin-top: 30px;
-}
-.password{
-    background-color:  #224957;
-    color: #ffffff;
-    width: 16%;
-    height: 38px;
-    margin-left: 41.6%;
-    border-radius: 10px;
-     border-style: none;
-     margin-top: 30px;
+    border-style: none;
+    margin-top: 30px;
 }
 
-::placeholder{
+.password {
+    background-color: #224957;
+    color: #ffffff;
+    width: 16%;
+    padding: 10px;
+    margin-left: 41.6%;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 30px;
+}
+
+.checkbox {
+    accent-color: green;
+    border-radius: 5px;
+    width: 1%;
+    margin-left: 39rem;
+    margin-top: 22px;
+}
+
+span {
+
+    color: #ffffff;
+    font-family: sans-serif;
+     
+    
+}
+
+
+::placeholder {
     color: #ffffff;
     font-style: normal;
     padding-left: 20px;
-    
-
-    
 }
-
+.f{
+    color: #20DF7F;
+    padding: 25px;
+}
+.r{
+    padding-left: 1px;
+}
+.l{
+     width: 20rem;
+    margin-left: 38rem;
+    padding: 15px;
+    background-color: #20DF7F;
+    border-radius: 10px;
+}
